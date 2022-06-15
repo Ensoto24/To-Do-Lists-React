@@ -1,0 +1,29 @@
+.logo {
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.root {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: peru;
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+  font-family: Montserrat;
+}
+
+.links li {
+  padding: 0px 16px;
+}

@@ -1,14 +1,15 @@
-import Head from 'next/head'
-import navbar from '../components/navbar'
-import footer from '../components/footer'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import footer from "../components/Footer";
+import Link from "next/link";
+import Navbar from "../components/Navbar";
+import Image from "next/image";
+import mexico from "../public/mexico.png";
+import styles from "../styles/home.module.css";
 
 export default function Home() {
   return (
-     <div>
-       <navbar />
-          <h1>bEn</h1>
-     </div>
-  )
+    <div className={styles.heroImage}>
+      <Image src={mexico} />
+    </div>
+  );
 }
