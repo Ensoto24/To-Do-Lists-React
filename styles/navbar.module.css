@@ -1,4 +1,7 @@
 .logo {
+  padding: 8px 0px;
+  opacity: 100%;
+  align-items: center;
 }
 
 .container {
@@ -14,7 +17,8 @@
   position: fixed;
   z-index: 1;
   width: 100%;
-  background-color: peru;
+  background-color: rgb(255, 255, 255);
+  opacity: 90%;
 }
 
 .links {
@@ -22,8 +26,30 @@
   gap: 8px;
   list-style: none;
   font-family: Montserrat;
+  padding: 0px 10px;
+  font-size: 16px;
+  align-items: center;
 }
 
 .links li {
-  padding: 0px 16px;
+  padding: 8px 16px;
+}
+
+.order {
+  padding: ;
+  background-color: rgb(0, 64, 41);
+  font-size: 16px;
+  color: white;
+  font-family: Montserrat;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: none;
+}
+
+.dot {
+  height: 3px;
+  width: 3px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
 }
