@@ -1,5 +1,16 @@
-.heroImage {
+.aboutMain {
+    background-color: rgb(0, 64, 41);
 }
 
-.heroImage image {
+.aboutText {
+    font-size: 32px;
+    font-family:'Libre Baskerville', serif;
+    color: hsla(0, 0%, 85%, 0.600);
+
+}
+
+
+.aboutUnderline {
+    text-decoration: underline;
+    color: white;
 }
