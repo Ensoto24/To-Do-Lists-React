@@ -1,7 +1,6 @@
 import styles from "../styles/navbar.module.css";
 import logo from "../public/logo.png";
 import Image from "next/image";
-import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
 
 const Navbar = () => {
   return (
