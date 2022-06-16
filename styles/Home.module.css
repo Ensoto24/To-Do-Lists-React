@@ -1,7 +1,5 @@
 .heroImage {
-  width: 100%;
 }
 
 .heroImage image {
-  object-fit: fill;
 }

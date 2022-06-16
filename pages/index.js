@@ -9,7 +9,7 @@ import styles from "../styles/home.module.css";
 export default function Home() {
   return (
     <div className={styles.heroImage}>
-      <Image src={mexico} />
+      <Image src={mexico} width={1440} height={733} />
     </div>
   );
 }

@@ -8,13 +8,23 @@ const Navbar = () => {
     <nav className={styles.root}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <Image src={logo} alt="Ninfa's" width={119} height={67} />
+          <Image src={logo} alt="Ninfa's" width={112} height={60} />
         </div>
         <ul className={styles.links}>
-          <li>Menu</li>
-          <li>About Us</li>
-          <li>Contact</li>
-          <li>Order Now</li>
+          <li>
+            <a>Menu</a>
+          </li>
+          <span className={styles.dot}></span>
+          <li>
+            <a>About Us</a>
+          </li>
+          <span className={styles.dot}></span>
+          <li>
+            <a>Contact</a>
+          </li>
+          <li>
+            <button className={styles.order}>Order Now</button>
+          </li>
         </ul>
       </div>
     </nav>
