@@ -1,15 +1,22 @@
 .aboutMain {
-    background-color: rgb(0, 64, 41);
+  display: flex;
+  background-color: rgb(0, 64, 41);
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 0px;
+  background-image: url("../public/background_image.png");
 }
 
 .aboutText {
-    font-size: 32px;
-    font-family:'Libre Baskerville', serif;
-    color: hsla(0, 0%, 85%, 0.600);
-
+  font-size: 32px;
+  font-family: "Libre Baskerville", serif;
+  color: hsla(0, 0%, 85%, 0.6);
 }
 
 .aboutUnderline {
-    text-decoration: underline;
-    color: white;
+  text-decoration: underline;
+  color: white;
+}
+
+.line {
 }
