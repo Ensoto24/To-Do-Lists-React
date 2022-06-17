@@ -25,6 +25,7 @@ export default function Home() {
            great food and delicious Margaritas.
         </p>
       </div>
-      </div></>
+      </div>
+      </>
   );
 }
