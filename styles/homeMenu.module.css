@@ -1,0 +1,26 @@
+.homeMenuMain {
+  display: flex;
+  flex-basis: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f7f6ef;
+}
+
+.homeMenuItem {
+  padding: 20px 25px;
+}
+
+.homeMenuImage {
+}
+
+.homeMenuDesc {
+  width: 100%;
+  height: 74.8px;
+  font-size: 21px;
+  background-color: #033e29;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
