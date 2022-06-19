@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   padding: 100px 0px;
+  font-family: "Libre Baskerville", serif;
 }
 
 .rectangle {
@@ -18,6 +19,7 @@
 }
 
 .mainHours p {
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
 }
 
