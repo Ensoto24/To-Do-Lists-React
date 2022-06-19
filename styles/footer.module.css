@@ -1,4 +1,4 @@
-.footerMain{
+.footerMain {
   display: flex;
   font-family: Montserrat;
   align-items: center;
@@ -8,21 +8,21 @@
   background-image: url("../public/background_image.png");
 }
 
-.footerContact{
+.footerContact {
   padding-left: 128px;
 }
 
-.footerContact h2{
+.footerContact h2 {
   font-size: 32px;
-  color: #ffffff
+  color: #ffffff;
 }
 
-.footerContact p{
+.footerContact p {
   font-size: 24px;
-  color: #ffffff60
+  color: #ffffff60;
 }
 
-.footerMaps{
+.footerMaps {
   width: 100%;
   height: 100vh;
   padding-right: 128px;

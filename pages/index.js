@@ -28,9 +28,12 @@ export default function Home() {
             </span>
             established in 1973.
           </p>
+<<<<<<< HEAD
           <div className={styles.line}>
             <img src="../public/line.svg" alt="" />
           </div>
+=======
+>>>>>>> a6572356e42288848d77108e54ae52bd68882a17
           <p>
             Known to everyone as “Mama”,{" "}
             <span className={styles.aboutUnderline}>
