@@ -11,18 +11,23 @@ const Navbar = () => {
         </div>
         <ul className={styles.links}>
           <li>
-            <a>Menu</a>
+            <a href="menu">Menu</a>
           </li>
           <span className={styles.dot}></span>
           <li>
-            <a>About Us</a>
+            <a href="#about-us">About Us</a>
           </li>
           <span className={styles.dot}></span>
           <li>
-            <a>Contact</a>
+            <a href="#contact-us">Contact</a>
           </li>
           <li>
-            <button className={styles.order}>Order Now</button>
+            <a
+              href="https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"
+              className={styles.order}
+            >
+              Order Now
+            </a>
           </li>
         </ul>
       </div>

@@ -34,14 +34,13 @@
   padding: 8px 16px;
 }
 
-.order {
-  background-color: rgb(0, 64, 41);
-  font-size: 16px;
-  color: white;
-  font-family: Montserrat;
-  border-radius: 4px;
-  padding: 8px 16px;
-  border: none;
+.links a {
+  text-decoration: none;
+  color: black;
+}
+
+.links a:hover {
+  text-decoration: underline;
 }
 
 .dot {
@@ -50,4 +49,13 @@
   background-color: rgb(0, 0, 0);
   border-radius: 50%;
   display: inline-block;
+}
+
+.links .order {
+  background-color: rgb(0, 64, 41);
+  font-size: 16px;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: none;
 }

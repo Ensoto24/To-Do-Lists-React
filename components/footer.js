@@ -14,7 +14,7 @@ const Footer = () => {
           Tel: 281-499-5070
         </p>
       </div>
-      <div className={styles.footerMap}>
+      <div id="contact-us" className={styles.footerMap}>
         <a
           href="https://www.google.com/maps/place/Ninfa's/@29.5702389,-95.5714415,17z/data=!3m1!4b1!4m5!3m4!1s0x8640e5fa5bce4469:0x5ef929721c8db434!8m2!3d29.5702407!4d-95.5692502"
           target="_blank"

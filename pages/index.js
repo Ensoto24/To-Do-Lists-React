@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar";
 import Image from "next/image";
 import line from "../public/line.svg";
 import mexico from "../public/mexico.png";
+import Hours from "../components/Hours";
+import HomeMenu from "../components/HomeMenu";
 import styles from "../styles/home.module.css";
 
 export default function Home() {
@@ -13,7 +15,7 @@ export default function Home() {
       <div className={styles.heroImage}>
         <Image src={mexico} width={1440} height={733} />
       </div>
-      <div className={styles.aboutMain}>
+      <div id="about-us" className={styles.aboutMain}>
         <div className={styles.aboutText}>
           <p>
             Every Day we continue a{" "}
@@ -46,6 +48,8 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <Hours />
+      <HomeMenu />
     </>
   );
 }
