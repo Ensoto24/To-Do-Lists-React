@@ -1,16 +1,18 @@
 .aboutMain {
   display: flex;
+  flex-direction: column;
   background-color: rgb(0, 64, 41);
   align-items: center;
-  justify-content: space-between;
   padding: 100px 0px;
   background-image: url("../public/background_image.png");
 }
 
 .aboutText {
+  width: 80%;
   font-size: 32px;
   font-family: "Libre Baskerville", serif;
   color: hsla(0, 0%, 85%, 0.6);
+  text-align: center;
 }
 
 .aboutUnderline {
@@ -18,6 +20,6 @@
   color: white;
 }
 
-.line {
-  color: rgb(255, 255, 255);
+.aboutLine {
+  padding: 40px 0px;
 }

@@ -1,7 +1,7 @@
 import styles from "../styles/footer.module.css";
 import Image from "next/image";
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className={styles.footerMain}>
       <div className={styles.footerContact}>
@@ -13,9 +13,11 @@ const footer = () => {
           Tel: 281-499-5070
         </p>
       </div>
-      <div className={styles.footerMap}></div>
+      <div className={styles.footerMap}>
+        <h1></h1>
+      </div>
     </div>
   );
 };
 
-export default footer;
+export default Footer;

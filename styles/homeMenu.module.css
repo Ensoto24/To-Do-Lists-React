@@ -1,9 +1,8 @@
 .homeMenuMain {
   display: flex;
-  flex-basis: 1;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #f7f6ef;
 }
 
