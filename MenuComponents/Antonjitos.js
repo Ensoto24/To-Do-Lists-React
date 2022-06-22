@@ -9,58 +9,102 @@ const Antonjitos = () => {
       </div>
 
       <div className={styles.itemHolder}>
-        <div className={styles.menuDivider}>
-          <div className={styles.menuItem}>
-            <div className={styles.rectangle}></div>
-            <h2>Queso Flameado</h2>
-            <p>Melted jack cheese casserole with chorizo (Mexican Sausage).</p>
-            <h3>Reg. $8, Lg. $11</h3>
-          </div>
-          <div className={styles.menuItem}>
-            <div className={styles.rectangle}></div>
-            <h2>Fajita Queso</h2>
-            <p>
-              Melted jack cheese casserole with your choice beef or chicken
-              fajita meat.
-            </p>
-            <h3>Reg. $9, Lg. $12</h3>
-          </div>
-          <div className={styles.menuItem}>
-            <div className={styles.rectangle}></div>
-            <h2>Dos Camarones</h2>
-            <p>
-              Two jalapeños stuffed with large. Shrimp and jack cheese. Deep
-              fried and served with ranch dressing.
-            </p>
-            <h3>Reg. $11</h3>
-          </div>
+        <div className={styles.menuItem}>
+          <div className={styles.rectangle}></div>
+          <h2>Queso Flameado</h2>
+          <p>Melted jack cheese casserole with chorizo (Mexican Sausage).</p>
+          <h3>Reg. $8, Lg. $11</h3>
         </div>
-        <div className={styles.menuDivider}>
-          <div className={styles.menuItem}>
-            <div className={styles.rectangle}></div>
-            <h2>Chile Con Queso</h2>
-            <h3>Reg. $7, Lg. $10</h3>
-            <p>Add Ground Beef.</p>
-            <h3>Reg. $8, Lg. $11</h3>
-          </div>
-          <div className={styles.menuItem}>
-            <div className={styles.rectangle}></div>
-            <h2>Ceviche</h2>
-            <p>
-              Seasoned shrimp, fish, scallops, onions, tomatoes, and jalapeños.
-            </p>
-            <h3>Reg. $11</h3>
-          </div>
-          <div className={styles.menuItem}>
-            <div className={styles.rectangle}></div>
-            <h2>Fiesta Platter</h2>
-            <p>
-              A gigantic sampler platter: Pork ribs, jalapeños bullets, Chicken
-              Flautas, Fajita Quesadillas, and Fajita Nachos. Served with
-              guacamole, sour cream, pico de gallo, and chile con queso.
-            </p>
-            <h3>Reg. $16</h3>
-          </div>
+        <div className={styles.menuItem}>
+          <div className={styles.rectangle}></div>
+          <h2>Fajita Queso</h2>
+          <p>
+            Melted jack cheese casserole with your choice beef or chicken fajita
+            meat.
+          </p>
+          <h3>Reg. $9, Lg. $12</h3>
+        </div>
+        <div className={styles.menuItem}>
+          <div className={styles.rectangle}></div>
+          <h2>Dos Camarones</h2>
+          <p>
+            Two jalapeños stuffed with large shrimp and jack cheese. Deep fried
+            and served with ranch dressing.
+          </p>
+          <h3>Reg. $11</h3>
+        </div>
+
+        <div className={styles.menuItem}>
+          <div className={styles.rectangle}></div>
+          <h2>Chile Con Queso</h2>
+          <h3>Reg. $7, Lg. $10</h3>
+          <p>Add Ground Beef.</p>
+          <h3>Reg. $8, Lg. $11</h3>
+        </div>
+        <div className={styles.menuItem}>
+          <div className={styles.rectangle}></div>
+          <h2>Ceviche</h2>
+          <p>
+            Seasoned shrimp, fish, scallops, onions, tomatoes, and jalapeños.
+          </p>
+          <h3>Reg. $11</h3>
+        </div>
+        <div className={styles.menuItem}>
+          <div className={styles.rectangle}></div>
+          <h2>Fiesta Platter</h2>
+          <p>
+            A gigantic sampler platter: Pork ribs, jalapeños bullets, Chicken
+            Flautas, Fajita Quesadillas, and Fajita Nachos. Served with
+            guacamole, sour cream, pico de gallo, and chile con queso.
+          </p>
+          <h3>Reg. $16</h3>
+        </div>
+      </div>
+
+      <h4>Nachos</h4>
+      <h5>Served with sour cream, guacamole and jalapeños.</h5>
+
+      <div className={styles.itemHolder}>
+        <div className={styles.menuItem}>
+          <div className={styles.rectangle}></div>
+          <h2>Bean and Cheese Nachos</h2>
+          <h3>Reg. $7, Lg. $11</h3>
+        </div>
+
+        <div className={styles.menuItem}>
+          <div className={styles.rectangle}></div>
+          <h2>Ground Beef Nachos</h2>
+          <h3>Reg. $10, Lg. $12</h3>
+        </div>
+
+        <div className={styles.menuItem}>
+          <div className={styles.rectangle}></div>
+          <h2>Fajita Nachos</h2>
+          <h3>Reg. $12, Lg. $16</h3>
+        </div>
+      </div>
+
+      <h4>Quesadillas</h4>
+      <h5>Served with sour cream, guacamole and jalapeños.</h5>
+
+      <div className={styles.itemHolder}>
+        <div className={styles.menuItem}>
+          <div className={styles.rectangle}></div>
+          <h2>Cheese Quesadilla</h2>
+          <h3>Reg. $7, Lg. $13</h3>
+        </div>
+
+        <div className={styles.menuItem}>
+          <div className={styles.rectangle}></div>
+          <h2>Fajita Quesadilla</h2>
+          <h3>Reg. $11, Lg. $15</h3>
+        </div>
+
+        <div className={styles.menuItem}>
+          <div className={styles.rectangle}></div>
+          <h2>Chihuahua Quesadilla</h2>
+          <p>Bacon, Poblano Peppers and Mushrooms</p>
+          <h3>Reg. $10, Lg. $14</h3>
         </div>
       </div>
     </div>

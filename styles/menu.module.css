@@ -10,15 +10,31 @@
 
 .menu h2 {
   font-size: 32px;
+  padding-bottom: 20px;
+}
+
+.menu h4 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.menu h5 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 32px;
+  font-weight: lighter;
 }
 
 .menu p {
   font-size: 24px;
-  padding: 20px 0px;
+  padding-bottom: 20px;
+  font-family: Montserrat, sans-serif;
 }
 
 .menu h3 {
   font-size: 24px;
+  font-family: Montserrat, sans-serif;
 }
 
 .menuHolder {
@@ -49,20 +65,20 @@
   justify-content: center;
 }
 
-/* Menu Divider Settings */
-.menuDivider {
-  width: 50%;
-}
 /* Item Holder Settings*/
 
 .itemHolder {
   background: #ffffff;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 8px;
   padding: 64px;
+  margin-bottom: 64px;
+  justify-content: flex-start;
 }
 
 /* Every Menu Item Settings */
 .menuItem {
   padding-bottom: 32px;
+  width: 50%;
 }
