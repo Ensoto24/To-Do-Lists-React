@@ -3,6 +3,7 @@ import styles from "../styles/about.module.css";
 const About = () => {
   return (
     <div id="about-us" className={styles.aboutMain}>
+      <video></video>
       <div className={styles.aboutText}>
         <p>
           Every Day we continue a{" "}
