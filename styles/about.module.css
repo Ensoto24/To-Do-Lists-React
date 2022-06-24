@@ -9,6 +9,7 @@
 
 .aboutText {
   width: 80%;
+  max-width: 1440px;
   font-size: 32px;
   font-family: "Libre Baskerville", serif;
   color: hsla(0, 0%, 85%, 0.6);
