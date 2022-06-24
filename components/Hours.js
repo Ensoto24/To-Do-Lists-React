@@ -22,7 +22,12 @@ const Hours = () => {
         </div>
       </div>
       <div>
-        <button className={styles.order}>Order Now</button>
+        <a
+          href="https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"
+          className={styles.order}
+        >
+          Order Now
+        </a>
       </div>
     </div>
   );
