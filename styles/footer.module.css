@@ -1,8 +1,5 @@
 .footerMain {
-  display: flex;
   font-family: Montserrat;
-  align-items: center;
-  justify-content: space-between;
   padding: 100px 0px;
   background-color: #800000;
   background-image: url("../public/background_image.png");
@@ -24,4 +21,13 @@
 
 .footerMap {
   padding-right: 128px;
+}
+
+.footerHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  max-width: 1920px;
 }
