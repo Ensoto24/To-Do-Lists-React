@@ -63,3 +63,56 @@
   padding: 8px 16px;
   border: none;
 }
+
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  text-align: center;
+  background: rgb(0, 64, 41);
+  font-size: 16px;
+  border-radius: 0.8em;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.order:hover {
+  color: #ffffff;
+}
+
+.orderCon {
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 255px;
+  height: 355px;
+  border-radius: 1em;
+  background: linear-gradient(50deg, #2a5a3b, #a3120d);
+  overflow: hidden;
+}
+
+.orderCon::before {
+  content: " ";
+  position: absolute;
+  width: 450px;
+  height: 35px;
+  top: 0;
+  right: 35px;
+  transition: 1.9s;
+  background: linear-gradient(50deg, #44d476, #d54c4c);
+  transform: rotate(-45deg) translate(0, -100px);
+}
+
+.orderCon:hover::before {
+  animation: cardEffect 1.9s;
+}
+
+@keyframes cardEffect {
+  100% {
+    transform: rotate(-45deg) translate(0, 450px);
+  }
+}

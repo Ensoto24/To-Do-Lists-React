@@ -21,7 +21,7 @@ const Navbar = () => {
           <li>
             <a href="#contact-us">Contact</a>
           </li>
-          <li>
+          <li className={styles.orderCon}>
             <a
               href="https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"
               className={styles.order}

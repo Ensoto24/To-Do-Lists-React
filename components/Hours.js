@@ -21,13 +21,15 @@ const Hours = () => {
           <p>9:00AM - 9:00PM</p>
         </div>
       </div>
-      <div>
-        <a
-          href="https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"
-          className={styles.order}
-        >
-          Order Now
-        </a>
+      <div className={styles.orderCon}>
+        <div className={styles.order}>
+          <a
+            className={styles.orderBtn}
+            href="https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"
+          >
+            Order Now
+          </a>
+        </div>
       </div>
     </div>
   );
