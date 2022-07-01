@@ -71,7 +71,7 @@
   justify-content: center;
   padding: 8px 16px;
   text-align: center;
-  background: rgb(0, 64, 41);
+  background: #004029;
   font-size: 16px;
   border-radius: 0.8em;
   color: white;
@@ -88,10 +88,8 @@
   display: grid;
   place-items: center;
   position: relative;
-  width: 255px;
-  height: 355px;
-  border-radius: 1em;
-  background: linear-gradient(50deg, #2a5a3b, #a3120d);
+  border-radius: 8px;
+  background: linear-gradient(50deg, #004029, #004029);
   overflow: hidden;
 }
 
@@ -103,7 +101,7 @@
   top: 0;
   right: 35px;
   transition: 1.9s;
-  background: linear-gradient(50deg, #44d476, #d54c4c);
+  background: linear-gradient(50deg, #ffffff, #ffffff);
   transform: rotate(-45deg) translate(0, -100px);
 }
 
