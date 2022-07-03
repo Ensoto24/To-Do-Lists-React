@@ -1,10 +1,11 @@
 import styles from "../styles/hours.module.css";
+import Button from "./Button";
 
-const Hours = () => {
+export default function Hours() {
   return (
     <div className={styles.mainHours}>
       <div className={styles.hoursHead}>
-        <div className={styles.rectangle}></div>
+        <hr />
         <h2>Hours</h2>
       </div>
       <div className={styles.hoursMid}>
@@ -21,18 +22,12 @@ const Hours = () => {
           <p>9:00AM - 9:00PM</p>
         </div>
       </div>
-      <div className={styles.orderCon}>
-        <div className={styles.order}>
-          <a
-            className={styles.orderBtn}
-            href="https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"
-          >
-            Order Now
-          </a>
-        </div>
-      </div>
+
+      <Button
+        href={"https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"}
+      >
+        Order now
+      </Button>
     </div>
   );
-};
-
-export default Hours;
+}

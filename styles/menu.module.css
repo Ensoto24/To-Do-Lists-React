@@ -1,84 +1,103 @@
-/* Main Menu Stuff */
 .menu {
   font-family: "Libre Baskerville", serif;
   background: #f7f6ef;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem 5vw;
   justify-content: center;
 }
 
+.menu h1 {
+  font-size: 4rem;
+  margin: 8rem auto 4rem;
+}
+
 .menu h2 {
-  font-size: 32px;
-  padding-bottom: 20px;
-}
-
-.menu h4 {
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.menu h5 {
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 32px;
-  font-weight: lighter;
-}
-
-.menu p {
-  font-size: 24px;
-  padding-bottom: 20px;
-  font-family: Montserrat, sans-serif;
+  font-size: 1.75rem;
+  padding-bottom: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 .menu h3 {
-  font-size: 24px;
+  font-size: 1.25rem;
   font-family: Montserrat, sans-serif;
 }
 
-.menuHolder {
-  width: 90%;
+.menu h4 {
+  margin: 0 auto;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
-/* Heading Lines */
-.rectangle {
-  width: 128px;
-  height: 1px;
-  background: #000000;
-  margin-bottom: 10px;
+.menu h5 {
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: lighter;
+  max-width: 40rem;
+  margin: 0 auto 2rem;
+}
+
+.menu p {
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+  line-height: 140%;
+  font-family: Montserrat, sans-serif;
+}
+
+.menu strong {
+  display: block;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.menu .container {
+  max-width: 60rem;
+  width: 100%;
+}
+
+.container > h2,
+.container > hr {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container > h2 {
+  margin-top: 0.5rem;
 }
 
 /* Menu Page Heading */
-.menuHeading {
-  padding: 128px 0px;
+.heading {
+  margin: 8rem 0 4rem;
   text-align: center;
   font-size: 64px;
 }
 
-.subHeading {
-  padding-bottom: 32px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 /* Item Holder Settings*/
 
-.itemHolder {
+.itemContainer {
   background: #ffffff;
+  gap: 1rem;
   display: flex;
   flex-wrap: wrap;
   border-radius: 8px;
   padding: 64px;
   margin-bottom: 64px;
   justify-content: flex-start;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 /* Every Menu Item Settings */
-.menuItem {
+.item {
   padding-bottom: 32px;
-  width: 50%;
+  width: 100%;
+}
+
+@media screen and (min-width: 50rem) {
+  .item {
+    width: calc(50% - 0.5rem);
+  }
 }
