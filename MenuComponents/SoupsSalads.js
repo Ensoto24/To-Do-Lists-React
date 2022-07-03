@@ -1,26 +1,24 @@
 import styles from "../styles/menu.module.css";
 
-const SoupsSalads = () => {
+export default function SoupsSalads() {
   return (
-    <div className={styles.menuHolder}>
-      <div className={styles.subHeading}>
-        <div className={styles.rectangle}></div>
-        <h2>Soups and Salads</h2>
-      </div>
+    <div className={styles.container}>
+      <hr />
+      <h2>Soups and Salads</h2>
 
       <h5>
         Served with Guacamole, Pico de Gallo, Mexican Rice, and Charra Beans
       </h5>
 
-      <div className={styles.itemHolder}>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+      <div className={styles.itemContainer}>
+        <div className={styles.item}>
+          <hr />
           <h2>Fajita Taco Salad</h2>
           <h3>Chicken Fajita - $13</h3>
           <h3>Beef Fajita - $15</h3>
         </div>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+        <div className={styles.item}>
+          <hr />
           <h2>Shrimp and Avocado Salad</h2>
           <p>
             Grilled shrimp over mixed green and topped with avocados, tomatoes
@@ -28,14 +26,14 @@ const SoupsSalads = () => {
           </p>
           <h3>Reg. $14</h3>
         </div>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+        <div className={styles.item}>
+          <hr />
           <h2>Taco Salad</h2>
           <p>Your choice of ground beef or ranchera chcicken</p>
           <h3>Reg. $12</h3>
         </div>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+        <div className={styles.item}>
+          <hr />
           <h2>Tortilla Soup</h2>
           <p>
             Mushrooms and vegetables. Served with rice, pico de gallo and
@@ -43,8 +41,8 @@ const SoupsSalads = () => {
           </p>
           <h3>Reg. $10</h3>
         </div>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+        <div className={styles.item}>
+          <hr />
           <h2>Santa Fe Chicken Salad</h2>
           <p>
             Mexican spiced cubed chicken cilantro tomatoes, bell peppers and
@@ -53,8 +51,8 @@ const SoupsSalads = () => {
           </p>
           <h3>Reg. $14</h3>
         </div>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+        <div className={styles.item}>
+          <hr />
           <h2>Caldo Xochitl</h2>
           <p>
             Chicken and avocado soup. Served with rice, pico de gallo, and
@@ -65,6 +63,4 @@ const SoupsSalads = () => {
       </div>
     </div>
   );
-};
-
-export default SoupsSalads;
+}

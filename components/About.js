@@ -1,14 +1,13 @@
 import styles from "../styles/about.module.css";
 
-const About = () => {
+export default function About() {
   return (
     <div id="about-us" className={styles.aboutMain}>
-      <video></video>
       <div className={styles.aboutText}>
         <p>
           Every Day we continue a{" "}
-          <span className={styles.aboutUnderline}>wonderful tradition</span>
-          by serving you and your family with the{" "}
+          <span className={styles.aboutUnderline}>wonderful tradition</span> by
+          serving you and your family with the{" "}
           <span className={styles.aboutUnderline}>
             same affection and quality
           </span>{" "}
@@ -37,6 +36,4 @@ const About = () => {
       </div>
     </div>
   );
-};
-
-export default About;
+}

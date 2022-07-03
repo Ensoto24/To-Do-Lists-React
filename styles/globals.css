@@ -1,9 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap%27");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+@import "plyr-react/dist/plyr.css";
 
 * {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
   scroll-behavior: smooth;
+}
+
+/* Heading Lines */
+hr {
+  width: 128px;
+  height: 1px;
+  background: #000000;
+  margin-bottom: 10px;
+}
+
+.plyr,
+.plyr__video-wrapper {
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
 }

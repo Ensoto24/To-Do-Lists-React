@@ -13,12 +13,10 @@ import NinfasOriginals from "../MenuComponents/NinfasOriginals";
 
 import styles from "../styles/menu.module.css";
 
-const Menu = () => {
+export default function Menu() {
   return (
     <div className={styles.menu}>
-      <div className={styles.menuHeading}>
-        <h1>Menu</h1>
-      </div>
+      <h1 className={styles.heading}>Menu</h1>
 
       <Antonjitos />
       <SoupsSalads />
@@ -34,6 +32,4 @@ const Menu = () => {
       <Desserts />
     </div>
   );
-};
-
-export default Menu;
+}

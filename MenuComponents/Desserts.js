@@ -1,16 +1,14 @@
 import styles from "../styles/menu.module.css";
 
-const Desserts = () => {
+export default function Desserts() {
   return (
-    <div className={styles.menuHolder}>
-      <div className={styles.subHeading}>
-        <div className={styles.rectangle}></div>
-        <h2>Desserts</h2>
-      </div>
+    <div className={styles.container}>
+      <hr />
+      <h2>Desserts</h2>
 
-      <div className={styles.itemHolder}>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+      <div className={styles.itemContainer}>
+        <div className={styles.item}>
+          <hr />
           <h2>Fried Ice Cream</h2>
           <p>
             A scoop of vanilla ice cream wrapped in corn flakes, sesame seeds
@@ -19,8 +17,8 @@ const Desserts = () => {
           </p>
           <h3>Reg. $7</h3>
         </div>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+        <div className={styles.item}>
+          <hr />
           <h2>Flan</h2>
           <p>
             A glazed Mexican confection of velvety smooth custard topped with
@@ -28,8 +26,8 @@ const Desserts = () => {
           </p>
           <h3>Reg. $6</h3>
         </div>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+        <div className={styles.item}>
+          <hr />
           <h2>Sopapillas</h2>
           <p>
             Ninfa's light and flaky pastry puffs, dusted with powdered sugar and
@@ -40,30 +38,28 @@ const Desserts = () => {
             <br /> $9 for 6
           </h3>
         </div>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+        <div className={styles.item}>
+          <hr />
           <h2>Sopapillas Especial</h2>
           <p>1 served with ice cream.</p>
           <h3>Reg. $3</h3>
         </div>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+        <div className={styles.item}>
+          <hr />
           <h2>Cheesecake</h2>
           <h3>Reg. $6</h3>
         </div>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+        <div className={styles.item}>
+          <hr />
           <h2>Carrot Cake</h2>
           <h3>Reg. $6</h3>
         </div>
-        <div className={styles.menuItem}>
-          <div className={styles.rectangle}></div>
+        <div className={styles.item}>
+          <hr />
           <h2>Chocolate Cake</h2>
           <h3>Reg. $6</h3>
         </div>
       </div>
     </div>
   );
-};
-
-export default Desserts;
+}
