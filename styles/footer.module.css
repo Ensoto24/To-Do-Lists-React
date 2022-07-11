@@ -3,10 +3,10 @@
   padding: 100px 0px;
   background-color: #800000;
   background-image: url("../public/background_image.png");
+  background-size: cover;
 }
 
 .footerContact {
-  padding-left: 128px;
 }
 
 .footerContact h2 {
@@ -20,7 +20,9 @@
 }
 
 .footerMap {
-  padding-right: 128px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .footerHolder {
@@ -29,5 +31,13 @@
   justify-content: space-between;
   width: 80%;
   margin: auto;
-  max-width: 1920px;
+  max-width: 75rem;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+@media screen and (min-width: 50rem) {
+  .footerHolder {
+    flex-direction: row;
+  }
 }

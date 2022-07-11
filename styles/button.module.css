@@ -1,6 +1,7 @@
 /* Order Button */
 
 .orderCon {
+  z-index: 0;
   display: grid;
   place-items: center;
   position: relative;
@@ -8,6 +9,10 @@
   border-radius: 8px;
   background: linear-gradient(50deg, #004029, #004029);
   overflow: hidden;
+}
+
+.orderCon a {
+  white-space: nowrap;
 }
 
 .orderCon::before {

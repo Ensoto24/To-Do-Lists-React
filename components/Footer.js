@@ -1,6 +1,6 @@
 import styles from "../styles/footer.module.css";
 import Image from "next/image";
-// import ninfasMap from "../public/ninfas_map.png";
+import ninfasMap from "../public/ninfas_map.png";
 
 export default function Footer() {
   return (
@@ -21,13 +21,12 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
-            {/* <Image
+            <Image
               src={ninfasMap}
               alt="mama ninfas map location"
               width={600}
               height={350}
-            ></Image> */}
+            />
           </a>
         </div>
       </div>
