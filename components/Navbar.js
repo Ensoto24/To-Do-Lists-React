@@ -2,42 +2,103 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/navbar.module.css";
 import logo from "../public/logo.png";
+import Headroom from "react-headroom";
+import { IoClose, IoMenu } from "react-icons/io5";
+import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { useMedia } from "react-use";
+import { useRouter } from "next/router";
 
 export default function Navbar() {
+  const isDesktop = useMedia("(min-width: 50rem)", false);
+  const [open, setOpen] = useState(false);
+  const router = useRouter();
+
   return (
-    <nav className={styles.root}>
-      <div className={styles.container}>
-        <Link href="/">
-          <a className={styles.logo}>
-            <Image src={logo} alt="Ninfa's" width={112} height={60} />
-          </a>
-        </Link>
-        <ul className={styles.links}>
-          <li>
-            <Link href="menu">
-              <a>Menu</a>
-            </Link>
-          </li>
-          <span className={styles.dot}></span>
-          <li>
-            <a href="#about-us">About Us</a>
-          </li>
-          <span className={styles.dot}></span>
-          <li>
-            <a href="#contact-us">Contact</a>
-          </li>
-          <li className={styles.orderCon}>
-            <a
-              href="https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"
-              className={styles.order}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Order Now
+    <>
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className={styles.overlay}
+            onClick={() => setOpen(false)}
+          />
+        )}
+      </AnimatePresence>
+
+      <Headroom className={styles.root}>
+        <nav className={styles.container}>
+          <button
+            className={`${styles.menuButton} ${
+              router.asPath !== "/" && styles.notHome
+            }`}
+            onClick={() => setOpen(!open)}
+          >
+            <IoMenu />
+          </button>
+
+          <Link href="/">
+            <a className={styles.logo}>
+              <Image src={logo} alt="Ninfa's" width={112} height={60} />
             </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+          </Link>
+          <div className={styles.menu}>
+            <AnimatePresence>
+              {(isDesktop || open) && (
+                <motion.ul
+                  initial={{ x: "-100%" }}
+                  animate={{ x: 0 }}
+                  exit={{ x: "-100%" }}
+                  transition={{
+                    type: "spring",
+                    bounce: 0.01,
+                  }}
+                  className={`${styles.links} ${
+                    router.asPath !== "/" && styles.notHome
+                  }`}
+                >
+                  <button
+                    className={styles.closeButton}
+                    onClick={() => setOpen(false)}
+                  >
+                    <IoClose />
+                  </button>
+
+                  <li>
+                    <Link href="menu">
+                      <a>Menu</a>
+                    </Link>
+                  </li>
+                  <span className={styles.dot}></span>
+                  <li>
+                    <Link href="/#about-us">
+                      <a>About Us</a>
+                    </Link>
+                  </li>
+                  <span className={styles.dot}></span>
+                  <li>
+                    <Link href="/#contact-us">
+                      <a>Contact</a>
+                    </Link>
+                  </li>
+                  <li className={styles.orderCon}>
+                    <a
+                      href="https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"
+                      className={styles.order}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Order Now
+                    </a>
+                  </li>
+                </motion.ul>
+              )}
+            </AnimatePresence>
+          </div>
+        </nav>
+      </Headroom>
+    </>
   );
 }

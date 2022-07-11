@@ -24,3 +24,68 @@ hr {
   min-width: 100%;
   width: 100%;
 }
+
+.headroom {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out,
+    box-shadow 200ms ease-in-out;
+}
+
+.headroom--unfixed {
+  background-color: transparent;
+  color: #fff !important;
+  position: fixed;
+  transform: translateY(0);
+  width: 100%;
+}
+
+.headroom--unfixed li > a,
+.headroom--unfixed svg,
+.headroom--unpinned li > a,
+.headroom--unpinned svg,
+.headroom--pinned li > a,
+.headroom--pinned svg {
+  color: white !important;
+}
+
+.headroom--unfixed ul span {
+  background-color: white !important;
+}
+
+.headroom--unpinned {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  transform: translateY(-100%);
+}
+
+.headroom--pinned {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: fixed;
+  transform: translateY(0%);
+}
+
+.headroom--unpinned svg,
+.headroom--pinned svg {
+  color: black !important;
+}
+
+@media screen and (min-width: 50rem) {
+  .headroom--unfixed li:not(:last-of-type) > a,
+  .headroom--unfixed svg {
+    color: white !important;
+  }
+  .headroom--unpinned li:not(:last-of-type) > a,
+  .headroom--unpinned svg,
+  .headroom--pinned li:not(:last-of-type) > a,
+  .headroom--pinned svg {
+    color: black !important;
+  }
+  .headroom--unfixed ul span {
+    background: white !important;
+  }
+}
