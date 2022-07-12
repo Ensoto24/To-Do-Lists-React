@@ -7,7 +7,11 @@ export default function Hero() {
     <section className={styles.root}>
       <div className={styles.container}>
         <h1>The Original Mexican Restaurant</h1>
-        <Button>Order now</Button>
+        <Button
+          href={"https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"}
+        >
+          Order Now
+        </Button>
       </div>
 
       <div className={styles.backgroundContainer}>

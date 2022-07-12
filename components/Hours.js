@@ -26,7 +26,7 @@ export default function Hours() {
       <Button
         href={"https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"}
       >
-        Order now
+        Order Now
       </Button>
     </div>
   );
