@@ -10,6 +10,7 @@ import Tacos from "../MenuComponents/Tacos";
 import Seafood from "../MenuComponents/Seafood";
 import PlatosMexicanos from "../MenuComponents/PlatosMexicanos";
 import NinfasOriginals from "../MenuComponents/NinfasOriginals";
+import Drinks from "../MenuComponents/Drinks";
 
 import styles from "../styles/menu.module.css";
 
@@ -30,6 +31,7 @@ export default function Menu() {
       <Enchilada />
       <Burritos />
       <Desserts />
+      <Drinks />
     </div>
   );
 }
