@@ -32,7 +32,7 @@ export default function Navbar() {
         <nav className={styles.container}>
           <button
             className={`${styles.menuButton} ${
-              router.asPath !== "/" && styles.notHome
+              router.asPath == "/menu" && styles.notHome
             }`}
             onClick={() => setOpen(!open)}
           >
@@ -56,7 +56,7 @@ export default function Navbar() {
                     bounce: 0.01,
                   }}
                   className={`${styles.links} ${
-                    router.asPath !== "/" && styles.notHome
+                    router.asPath == "/menu" && styles.notHome
                   }`}
                 >
                   <button
