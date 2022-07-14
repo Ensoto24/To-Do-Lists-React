@@ -106,7 +106,7 @@ export default function Drinks() {
 
         <div className={styles.item}>
           <hr />
-          <h2>Mama's La Perfecta Margarita</h2>
+          <h2>Mama’s La Perfecta Margarita</h2>
           <p>
             Sauza Gold Tequila and Grand Marnier with a splash of orange juice
             and fresh lime juice.
