@@ -177,8 +177,8 @@ export default function Drinks() {
         <div className={styles.item}>
           <hr />
           <h2>Beverages</h2>
-          <p>Coffee, Tee, and Softdrinks.</p>
-          <h3>$2.49</h3>
+          <p>Coffee, Tea, and Softdrinks.</p>
+          {/* <h3>$2.49</h3> */}
         </div>
       </div>
     </div>

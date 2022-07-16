@@ -18,7 +18,7 @@ export default function HeroSlide() {
   return (
     <section className={styles.root}>
       <div className={styles.container}>
-        <h1>Welcome to Mama Ninfa’s</h1>
+        <h1>Welcome to Mama Ninfa’s Missouri City</h1>
         <Button
           href={"https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"}
         >
