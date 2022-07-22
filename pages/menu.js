@@ -31,7 +31,6 @@ export default function Menu() {
       <Enchilada />
       <Burritos />
       <Desserts />
-      <Drinks />
     </div>
   );
 }
