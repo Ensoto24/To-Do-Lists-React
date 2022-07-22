@@ -29,7 +29,7 @@ export default function SoupsSalads() {
         <div className={styles.item}>
           <hr />
           <h2>Taco Salad</h2>
-          <p>Your choice of ground beef or ranchera chcicken</p>
+          <p>Your choice of ground beef or ranchera chicken</p>
           <h3>Reg. $12</h3>
         </div>
         <div className={styles.item}>
