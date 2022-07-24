@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Antonjitos from "../MenuComponents/Antonjitos";
 import Burritos from "../MenuComponents/Burritos";
 import DeLaParilla from "../MenuComponents/DeLaParilla";
@@ -11,12 +12,17 @@ import Seafood from "../MenuComponents/Seafood";
 import PlatosMexicanos from "../MenuComponents/PlatosMexicanos";
 import NinfasOriginals from "../MenuComponents/NinfasOriginals";
 import Drinks from "../MenuComponents/Drinks";
+import meta from "../content/meta.json";
 
 import styles from "../styles/menu.module.css";
 
 export default function Menu() {
   return (
     <div className={styles.menu}>
+      <Head>
+        <title>Menu | {meta.title}</title>
+      </Head>
+
       <h1 className={styles.heading}>Menu</h1>
 
       <Antonjitos />
