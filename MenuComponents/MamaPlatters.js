@@ -19,7 +19,7 @@ export default function MamaPlatters() {
             Chicken breast stuffed with baby shrimp and jack cheese. Sauteed
             with mushrooms in a garlic butter sauce
           </p>
-          <h3>Reg. $20</h3>
+          <h3>Reg. $23</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -28,7 +28,7 @@ export default function MamaPlatters() {
             Chicken breast topped with sauteed onions, tomatoes and
             jalapenos(spicy).
           </p>
-          <h3>Reg. $16</h3>
+          <h3>Reg. $18</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -37,7 +37,7 @@ export default function MamaPlatters() {
             Charbroiled chicken breast topped with jack cheese, poblano peppers,
             bacon, and mushrooms.
           </p>
-          <h3>Reg. $16</h3>
+          <h3>Reg. $18</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -46,7 +46,7 @@ export default function MamaPlatters() {
             Breaded and golden fried chicken topped with ranchero sauce and
             monterey jack cheese.
           </p>
-          <h3>Reg. $17</h3>
+          <h3>Reg. $19</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -55,7 +55,7 @@ export default function MamaPlatters() {
             Charbroiled chicken breat topped with jack cheese, sauteed
             mushrooms, onions, and bell peppers.
           </p>
-          <h3>Reg. $16</h3>
+          <h3>Reg. $18</h3>
         </div>
       </div>
     </div>

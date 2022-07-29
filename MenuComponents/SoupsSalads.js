@@ -14,8 +14,8 @@ export default function SoupsSalads() {
         <div className={styles.item}>
           <hr />
           <h2>Fajita Taco Salad</h2>
-          <h3>Chicken Fajita - $13</h3>
-          <h3>Beef Fajita - $15</h3>
+          <h3>Chicken Fajita - $14</h3>
+          <h3>Beef Fajita - $16</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -24,13 +24,13 @@ export default function SoupsSalads() {
             Grilled shrimp over mixed green and topped with avocados, tomatoes
             red onions, black olives and monterey jack cheese.{" "}
           </p>
-          <h3>Reg. $14</h3>
+          <h3>Reg. $15</h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>Taco Salad</h2>
           <p>Your choice of ground beef or ranchera chicken</p>
-          <h3>Reg. $12</h3>
+          <h3>Reg. $13</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -39,7 +39,11 @@ export default function SoupsSalads() {
             Mushrooms and vegetables. Served with rice, pico de gallo and
             tortilla strips.{" "}
           </p>
-          <h3>Reg. $10</h3>
+          <h3>
+            Reg. $12,
+            <br />
+            Add Chicken - $2
+          </h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -49,7 +53,7 @@ export default function SoupsSalads() {
             avocado over mixed greens topped with our homemade cilantro lime
             dressing and tortilla strips.
           </p>
-          <h3>Reg. $14</h3>
+          <h3>Reg. $15</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -58,7 +62,7 @@ export default function SoupsSalads() {
             Chicken and avocado soup. Served with rice, pico de gallo, and
             tortilla strips.
           </p>
-          <h3>Reg. $10</h3>
+          <h3>Reg. $12</h3>
         </div>
       </div>
     </div>

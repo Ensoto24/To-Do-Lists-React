@@ -16,25 +16,24 @@ export default function Tacos() {
           <hr />
           <h2>Two Taco A La Ninfa Chicken</h2>
 
-          <h3>Reg. $15</h3>
+          <h3>Reg. $17</h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>One Taco A La Ninfa Chicken</h2>
 
-          <h3>Reg. $12</h3>
+          <h3>Reg. $14</h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>Two Taco A La Ninfa Beef</h2>
 
-          <h3>Reg. $16</h3>
+          <h3>Reg. $18</h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>One Taco A La Ninfa Beef</h2>
-
-          <h3>Reg. $13</h3>
+          <h3>Reg. $15</h3>
         </div>
       </div>
     </div>

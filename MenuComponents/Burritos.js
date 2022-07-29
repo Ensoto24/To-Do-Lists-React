@@ -16,7 +16,7 @@ export default function Burritos() {
             Bean and cheese burrito topped with our enchilada sauce and chili
             con queso.
           </p>
-          <h3>Reg. $11</h3>
+          <h3>Reg. $12</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -25,7 +25,10 @@ export default function Burritos() {
             Burrito stuffed with picadillo beef, beans, and chili con queso.
             Topped with enchilada sauce and cheddar cheese.
           </p>
-          <h3>Reg. $12, With Fajita. $12</h3>
+          <h3>
+            Reg. $13,
+            <br /> With Fajita - $17
+          </h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -34,7 +37,10 @@ export default function Burritos() {
             Burrito stufed with ranchera chicken, beans, and chili con queso.
             Topped with enchilada gravy and monterrey jack cheese.
           </p>
-          <h3>Reg. $12, With Fajita. $15</h3>
+          <h3>
+            Reg. $13,
+            <br /> With Fajita - $16
+          </h3>
         </div>
       </div>
     </div>

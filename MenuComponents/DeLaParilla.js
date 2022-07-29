@@ -21,30 +21,30 @@ export default function DeLaParilla() {
           </p>
           <h3>
             <strong>Chicken</strong>
-            1/4lb - $16, 1/2lb - $22, 1lb - $ 34
-            <strong>Beef</strong>
-            1/4lb - $18, 1/2lb - $24, 1lb - $ 38
-            <strong>Mixed</strong>
             1/4lb - $17, 1/2lb - $23, 1lb - $ 36
+            <strong>Beef</strong>
+            1/4lb - $19, 1/2lb - $25, 1lb - $ 40
+            <strong>Mixed</strong>
+            1/4lb - $18, 1/2lb - $24, 1lb - $ 38
           </h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>Carne Asada</h2>
           <p>Beef fajita skirt steak, cut vert thin and grilled well done.</p>
-          <h3>Reg. $18</h3>
+          <h3>Reg. $20</h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>Mixta Campesino</h2>
           <p>Carnitas and your choice of our original fajitas.</p>
-          <h3>Reg. $17</h3>
+          <h3>Reg. $19</h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>Mixta Acapulco</h2>
           <p>Two Acapulco shrimp and your choice of our original fajitas.</p>
-          <h3>Reg. $18</h3>
+          <h3>Reg. $20</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -53,7 +53,7 @@ export default function DeLaParilla() {
             Pork ribs, cheese chile relleno, and your choice of original
             fajitas.
           </p>
-          <h3>Reg. $22</h3>
+          <h3>Reg. $24</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -62,7 +62,7 @@ export default function DeLaParilla() {
             Charboiled shrimp, original fajitas, and your choice of carnitas or
             pork ribs.
           </p>
-          <h3>Reg. $24</h3>
+          <h3>Reg. $26</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -72,13 +72,16 @@ export default function DeLaParilla() {
             Carnitas, Charboiled shrimp, pork ribs, fried mushrooms, and a
             pablano pepper stuffed with jack cheese. Served with sour cream.
           </p>
-          <h3>Reg. $50</h3>
+          <h3>Reg. $52</h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>Mexican Style Charboiled Pork Ribs</h2>
           <p>Served with your choice of spicy or mild BBQ sauce.</p>
-          <h3>Half Slab. $19, Full Slab. $28</h3>
+          <h3>
+            Half Slab - $21,
+            <br /> Full Slab - $30
+          </h3>
         </div>
       </div>
     </div>

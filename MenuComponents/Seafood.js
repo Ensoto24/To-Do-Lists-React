@@ -18,13 +18,13 @@ export default function Seafood() {
             Butterflied shrimp stuffed with jack cheese and a sliver of
             jalapeno, bacon wrapped, and grilled.
           </p>
-          <h3>Reg. $25</h3>
+          <h3>Reg. $26</h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>Broiled Mariscos</h2>
           <p>Tampicomama’s famous broiled shrimp and garlic butter.</p>
-          <h3>Reg. $23</h3>
+          <h3>Reg. $24</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -32,19 +32,19 @@ export default function Seafood() {
           <p>
             Deep fried jumbo shrimp topped with ranchera sauce and jack cheese.
           </p>
-          <h3>Reg. $25</h3>
+          <h3>Reg. $26</h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>Grilled Tilapia</h2>
           <p>Seasoned and grilled served with sauteed vegetables.</p>
-          <h3>Reg. $16</h3>
+          <h3>Reg. $17</h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>Fish Tacos</h2>
           <p>Two spicy chipotle grilled fish tacos.</p>
-          <h3>Reg. $15</h3>
+          <h3>Reg. $18</h3>
         </div>
       </div>
     </div>

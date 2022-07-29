@@ -16,19 +16,19 @@ export default function Especialidades() {
           <hr />
           <h2>Jose's Mar y Tierra</h2>
           <p>Two grilled quail and three jumbo shrimp.</p>
-          <h3>Reg. $23</h3>
+          <h3>Reg. $25</h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>Quail a la Erika</h2>
           <p>Three grilled quail.</p>
-          <h3>Reg. $24</h3>
+          <h3>Reg. $26</h3>
         </div>
         <div className={styles.item}>
           <hr />
           <h2>Estella's Granja y Mar</h2>
           <p>Two Acapulco shrimp, carnitas, and beef, and chicken fajitas.</p>
-          <h3>Reg. $24</h3>
+          <h3>Reg. $26</h3>
         </div>
       </div>
     </div>

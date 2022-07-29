@@ -16,7 +16,7 @@ export default function Enchilada() {
           <hr />
           <h2>Antiguas (Cheese)</h2>
           <p>Cheddar cheese topped with enchilada sauce.</p>
-          <h3>Reg. $12</h3>
+          <h3>Reg. $13</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -25,7 +25,7 @@ export default function Enchilada() {
             Chicken fajita or cheese topped with creamy suiza sauce, jack
             cheese, avocado, sour cream, and green onions.
           </p>
-          <h3>Reg. $13</h3>
+          <h3>Reg. $14</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -34,7 +34,7 @@ export default function Enchilada() {
             Ranchera chicken topped with sour cream. Topped with salsa ranchera
             and jack cheese.
           </p>
-          <h3>Reg. $13</h3>
+          <h3>Reg. $14</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -43,7 +43,7 @@ export default function Enchilada() {
             Beef or chicken fajita topped with cheddar cheese and chile con
             carne.
           </p>
-          <h3>Reg. $15</h3>
+          <h3>Reg. $16</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -52,7 +52,7 @@ export default function Enchilada() {
             Picadillo ground beef topped with chile con carne and cheddar
             cheese.
           </p>
-          <h3>Reg. $13</h3>
+          <h3>Reg. $14</h3>
         </div>
         <div className={styles.item}>
           <hr />
@@ -61,7 +61,7 @@ export default function Enchilada() {
             Pork carnitas with tomatillo sauce, avocado slices, sour cream, and
             jack cheese.
           </p>
-          <h3>Reg. $15</h3>
+          <h3>Reg. $16</h3>
         </div>
       </div>
     </div>
