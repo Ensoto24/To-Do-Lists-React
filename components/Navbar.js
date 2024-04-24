@@ -14,91 +14,89 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const router = useRouter();
 
-  return (
-    <>
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className={styles.overlay}
-            onClick={() => setOpen(false)}
-          />
-        )}
-      </AnimatePresence>
+  return <>
+    <AnimatePresence>
+      {open && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className={styles.overlay}
+          onClick={() => setOpen(false)}
+        />
+      )}
+    </AnimatePresence>
 
-      <Headroom className={styles.root}>
-        <nav className={styles.container}>
-          <button
-            className={`${styles.menuButton} ${
-              router.asPath == "/menu" && styles.notHome
-            }`}
-            onClick={() => setOpen(!open)}
-          >
-            <IoMenu />
-          </button>
+    <Headroom className={styles.root}>
+      <nav className={styles.container}>
+        <button
+          className={`${styles.menuButton} ${
+            router.asPath == "/menu" && styles.notHome
+          }`}
+          onClick={() => setOpen(!open)}
+        >
+          <IoMenu />
+        </button>
 
-          <Link href="/">
-            <a className={styles.logo}>
-              <Image src={logo} alt="Ninfa's" width={112} height={60} />
-            </a>
-          </Link>
-          <div className={styles.menu}>
-            <AnimatePresence>
-              {(isDesktop || open) && (
-                <motion.ul
-                  initial={{ x: "-100%" }}
-                  animate={{ x: 0 }}
-                  exit={{ x: "-100%" }}
-                  transition={{
-                    type: "spring",
-                    bounce: 0.01,
-                  }}
-                  className={`${styles.links} ${
-                    router.asPath == "/menu" && styles.notHome
-                  }`}
+        <Link href="/" className={styles.logo}>
+
+          <Image src={logo} alt="Ninfa's" width={112} height={60} />
+
+        </Link>
+        <div className={styles.menu}>
+          <AnimatePresence>
+            {(isDesktop || open) && (
+              <motion.ul
+                initial={{ x: "-100%" }}
+                animate={{ x: 0 }}
+                exit={{ x: "-100%" }}
+                transition={{
+                  type: "spring",
+                  bounce: 0.01,
+                }}
+                className={`${styles.links} ${
+                  router.asPath == "/menu" && styles.notHome
+                }`}
+              >
+                <button
+                  className={styles.closeButton}
+                  onClick={() => setOpen(false)}
                 >
-                  <button
-                    className={styles.closeButton}
-                    onClick={() => setOpen(false)}
-                  >
-                    <IoClose />
-                  </button>
+                  <IoClose />
+                </button>
 
-                  <li>
-                    <Link href="menu">
-                      <a>Menu</a>
-                    </Link>
-                  </li>
-                  <span className={styles.dot}></span>
-                  <li>
-                    <Link href="/#about-us">
-                      <a>About Us</a>
-                    </Link>
-                  </li>
-                  <span className={styles.dot}></span>
-                  <li>
-                    <Link href="/#contact-us">
-                      <a>Contact</a>
-                    </Link>
-                  </li>
-                  <li className={styles.orderCon}>
-                    <a
-                      href="https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"
-                      className={styles.order}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Order Now
-                    </a>
-                  </li>
-                </motion.ul>
-              )}
-            </AnimatePresence>
-          </div>
-        </nav>
-      </Headroom>
-    </>
-  );
+                <li>
+                  <Link href="menu">
+                    Menu
+                  </Link>
+                </li>
+                <span className={styles.dot}></span>
+                <li>
+                  <Link href="/#about-us">
+                    About Us
+                  </Link>
+                </li>
+                <span className={styles.dot}></span>
+                <li>
+                  <Link href="/#contact-us">
+                    Contact
+                  </Link>
+                </li>
+                <li className={styles.orderCon}>
+                  <a
+                    href="https://www.toasttab.com/ninfas-sugar-land-5730-highway-6/v3"
+                    className={styles.order}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Order Now
+                  </a>
+                </li>
+              </motion.ul>
+            )}
+          </AnimatePresence>
+        </div>
+      </nav>
+    </Headroom>
+  </>;
 }

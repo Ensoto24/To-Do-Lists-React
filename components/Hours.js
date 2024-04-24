@@ -10,17 +10,17 @@ export default function Hours() {
       </div>
       <div className={styles.hoursMid}>
         <div className={styles.hoursInfo}>
-          <h2>Mon-Fri</h2>
+          <h2>Sun-Thu</h2>
+          <p>11:00AM - 9:00PM</p>
+        </div>
+        <div className={styles.hoursInfo}>
+          <h2>Fri-Sat</h2>
           <p>11:00AM - 10:00PM</p>
         </div>
-        <div className={styles.hoursInfo}>
-          <h2>Sat</h2>
-          <p>9:00AM - 11:00PM</p>
-        </div>
-        <div className={styles.hoursInfo}>
+        {/* <div className={styles.hoursInfo}>
           <h2>Sun</h2>
           <p>9:00AM - 9:00PM</p>
-        </div>
+        </div> */}
       </div>
 
       <Button
